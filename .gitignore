@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Data & caches
+data/
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Model checkpoints (large files)
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# MLflow
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+tensorboard/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
